@@ -34,7 +34,7 @@ public class ApplicationTest {
         assertEquals(2, a);
     }
 
-    @Test
+    @Test //ƒeƒXƒg‚Å‚·
     public void renderTemplate() {
         Content html = views.html.index.render("Your new application is ready.");
         assertEquals("text/html", html.contentType());
