@@ -36,7 +36,7 @@ public class Filters implements HttpFilters {
       // Use the example filter if we're running development mode. If
       // we're running in production or test mode then don't use any
       // filters at all.
-      if (env.mode().equals(Mode.DEV)) {
+      if (env.mode().equals(Mode.DEV)) { //if•¶
           return new EssentialFilter[] { exampleFilter };
       } else {
          return new EssentialFilter[] {};
